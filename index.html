@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Тортики & тістечка</title>
+</head>
+
+<body>
+    <header>
+        <h1>Тортики <em>&</em> Тістечка</h1>
+    </header>
+    <aside>
+        <label for="calorie" id="labelCal">Калорії у порції</label>
+        <input type="range" name="calorie" id="calorie" min="0" max="600">
+        <span style="font-size: 1.5em; margin: 10px 0;">Від 0 до 600 кКал</span>
+
+        <label for="tort" class="labelFilter">Торт</label>
+        <label for="purig" class="labelFilter">Пиріг</label>
+        <label for="rylet" class="labelFilter">Рулети</label>
+        <label for="tistechka" class="labelFilter">Тістечка</label>
+        <label for="cheesecakes" class="labelFilter">Сирники</label>
+        <label for="reset" class="labelFilter">Скинути фільтр</label>
+    </aside>
+    <main>
+        <input type="radio" name="category" id="tort">
+        <input type="radio" name="category" id="purig">
+        <input type="radio" name="category" id="rylet">
+        <input type="radio" name="category" id="tistechka">
+        <input type="radio" name="category" id="cheesecakes">
+        <input type="radio" name="category" id="reset">
+
+        <div class="recipe tort">
+            <div class="top">
+                <img src="img/cake9.jpg" alt="cake9">
+                <p class="cakeName">Торт: <b>Чорна ягода</b></p>
+            </div>
+            <p class="ccal">Калорії у порції: 300кКал</p>
+        </div>
+        <div class="recipe rylet">
+            <div class="top">
+                <img src="img/ekler.jpg" alt="ekler">
+                <p class="cakeName">Рулет: <b>Рулет</b></p>
+            </div>
+            <p class="ccal">Калорії у порції: 400кКал</p>
+        </div>
+        <div class="recipe tistechka">
+            <div class="top">
+                <img src="img/tvorognitistechka.jpg" alt="tvorognitistechka">
+                <p class="cakeName">Тістечко: <b>Сирні</b></p>
+            </div>
+            <p class="ccal">Калорії у порції: 500кКал</p>
+        </div>
+        <div class="recipe tort">
+            <div class="top">
+              <img src="img/prazkuj.jpg" alt="prazkuj">
+                <p class="cakeName">Торт: <b>Шоколадний</b></p>
+            </div>
+            <p class="ccal">Калорії у порції: 200кКал</p>
+        </div>
+        <div class="recipe cheesecakes">
+            <div class="top">
+                <img src="img/smetannik.jpg" alt="smetannik">
+                <p class="cakeName">Сирник: <b>Сирники</b></p>
+            </div>
+            <p class="ccal">Калорії у порції: 300кКал</p>
+        </div>
+        <div class="recipe tistechka">
+            <div class="top">
+                <img src="img/tiramisy.jpg" alt="tiramisy">
+                <p class="cakeName">Тістечко: <b>тірамісу</b></p>
+            </div>
+            <p class="ccal">Калорії у порції: 300кКал</p>
+        </div>
+        <div class="recipe tort">
+            <div class="top">
+                <img src="img/biskvit.jpg" alt="biskvit">
+                <p class="cakeName">Торт: <b>Торт</b></p>
+            </div>
+            <p class="ccal">Калорії у порції: 400кКал</p>
+        </div>
+        <div class="recipe purig">
+            <div class="top">
+                <img src="img/myrashnuk.jpg" alt="myrashnuk">
+                <p class="cakeName">Пиріг: <b>Мурашник</b></p>
+            </div>
+            <p class="ccal">Калорії у порції: 200кКал</p>
+        </div>
+        <div class="recipe tort">
+            <div class="top">
+                <img src="img/krasnujbarxat.jpg" alt="krasnujbarxat">
+                <p class="cakeName">Торт: <b>Червоний оксамит</b></p>
+            </div>
+            <p class="ccal">Калорії у порції: 400кКал</p>
+        </div>
+    </main>
+    <footer>
+        <div>
+            Контакти:
+            <a href="https://gmail.com" target="_blank">tortik@smakota.ua</a>
+        </div>
+        <div>
+            Ⓒ 2020 Smakota
+        </div>
+    </footer>
+</body>
+
+</html>
